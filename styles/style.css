@@ -215,6 +215,7 @@ body {
     text-stroke: 1px var(--label-color);
   }
 }
+
 @media (width <= 375px) {
   .image__label {
     top: 26px;
