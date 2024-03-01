@@ -1,1 +1,36 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: Inter, sans-serif;
+  --accent-font-family: "Press Start 2P", fantasy;
+  --sparks-color: #ff0000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #d3d3d3;
+    --background-color-start: #e7e7e7;
+    --background-color-end: #1a1a1a;
+    --background-color-card: #FFFFFF;
+    --text-color: #000000;
+    --border-card-color: var(--text-color);
+    --label-color: var(--background-color-card);
+    --blend-color: var(--background-color-card);
+    --title-font-weight: "wght" 700;
+    --text-font-weight: "wght" 400;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000;
+    --background-color-start: #007f0c;
+    --background-color-end: #004306;
+    --background-color-card: #000000;
+    --text-color: #00CC14;
+    --border-card-color: var(--text-color);
+    --label-color: var(--background-color-card);
+    --blend-color: var(--text-color);
+    --title-font-weight: "wght" 785;
+    --text-font-weight: "wght" 465;
+  }
+}
