@@ -216,10 +216,10 @@ body {
   }
 }
 @media (width <= 375px) {
-.image__label {
-  top: 26px;
-  right: 11px; 
-}
+  .image__label {
+    top: 26px;
+    right: 11px; 
+  }
 }
 
 .card__like-container {
@@ -319,7 +319,7 @@ body {
 }
 
 @media (width <= 375px) {
-.button__save{
+.button__save {
     flex-direction: column;
   }
 }
