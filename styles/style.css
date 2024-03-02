@@ -80,14 +80,14 @@ body {
   cursor: pointer;
 }
 
-.theme-menu__list { 
-  position: relative; 
-  display: flex; 
-  flex-direction: column; 
-  gap: 13px; 
-  margin: 0 45.3%; 
-  line-height: 87%; 
-  text-align: start; 
+.theme-menu__list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 0 45.3%;
+  line-height: 87%;
+  text-align: start;
 }
 
 @media (width <= 375px) {
@@ -216,7 +216,7 @@ body {
 @media (width <= 375px) {
   .image__label {
     top: 26px;
-    right: 11px; 
+    right: 11px;
   }
 }
 
