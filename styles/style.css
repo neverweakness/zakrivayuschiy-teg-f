@@ -205,7 +205,7 @@ body {
   mix-blend-mode: hard-light;
 }
 
-@supports (-webkit-text-stroke.card__image: 1px var(--label-color)) or (text-stroke: 1px var(--label-color)) {
+@supports (-webkit-text-stroke: 1px var(--label-color)) or (text-stroke: 1px var(--label-color)) {
   .image-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--label-color);
